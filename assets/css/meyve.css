@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.fruitBasket{
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-content: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 40px;
+  gap: 20px;
+  align-content: center;
+}
+
+ul li {
+  list-style: none;
+}
+.line {
+
+  border-left: double;
+  margin: 0 auto;
+}
+
+.head{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+.siparis{
+  display: grid;
+}
+
+#siparisListesi{
+  gap: 8px;
+    display: grid;
+    place-content: baseline;
+}
+.meyveList {
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  appearance: none;
+}
+
+.btns {
+  padding: 20px;
+    background-color: white;
+    border-radius: 7px;
+    width: 100%;
+}
